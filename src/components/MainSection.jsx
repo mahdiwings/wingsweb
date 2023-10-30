@@ -1,4 +1,8 @@
 import CardMainSection1 from "./CardMainSection1";
+import design from "../images/design.png"
+import code from "../images/code.png"
+import consulting from "../images/consulting.png"
+import devedwave from "../images/dev-ed-wave.png"
 
 function MainSection() {
   return (
@@ -6,7 +10,7 @@ function MainSection() {
       <div className="relative mx-auto mt-16 h-80 w-80 overflow-hidden rounded-full bg-gradient-to-b from-teal-500 md:h-96 md:w-96">
         <img
           className=" h-80  w-80 object-cover md:h-96 md:w-96"
-          src="../public/dev-ed-wave.png"
+          src={devedwave}
           alt="developer"
         />
       </div>
@@ -36,7 +40,7 @@ function MainSection() {
       <div className="gap-10 lg:flex">
         {/* Image Card 1 */}
         <CardMainSection1
-          myImage={"../public/design.png"}
+          myImage={design}
           AltImg={"design developer"}
           SkillTitle={"Design Tools I Use"}
           CardTitle={"Beautiful Designs"}
@@ -46,7 +50,7 @@ function MainSection() {
           Skill4={"Adobe XD"}
         />
         <CardMainSection1
-          myImage={"../public/code.png"}
+          myImage={code}
           AltImg={"code developer"}
           SkillTitle={"My programming skills"}
           CardTitle={"Smart Coding"}
@@ -56,7 +60,7 @@ function MainSection() {
           Skill4={"React Js"}
         />
         <CardMainSection1
-          myImage={"public/consulting.png"}
+          myImage={consulting}
           AltImg={"consulting developer"}
           SkillTitle={"The things we do"}
           CardTitle={"Our expertise"}

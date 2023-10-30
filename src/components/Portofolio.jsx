@@ -1,3 +1,10 @@
+import web1 from "../images/web1.png"
+import web2 from "../images/web2.png"
+import web3 from "../images/web3.png"
+import web4 from "../images/web4.png"
+import web5 from "../images/web5.png"
+import web6 from "../images/web6.png"
+
 function Portofolio() {
   return (
     <section className="pb-10">
@@ -28,42 +35,42 @@ function Portofolio() {
         <div className="flex-1 basis-1/3 shadow-lg">
           <img
             className="h-full w-full rounded-lg object-cover"
-            src="public/web1.png"
+            src={web1}
             alt="web"
           />
         </div>
         <div className="flex-1 basis-1/3 shadow-lg">
           <img
             className="h-full w-full rounded-lg object-cover"
-            src="public/web2.png"
+            src={web2}
             alt="web"
           />
         </div>
         <div className="flex-1 basis-1/3 shadow-lg">
           <img
             className="h-full w-full rounded-lg object-cover"
-            src="public/web3.png"
+            src={web3}
             alt="web"
           />
         </div>
         <div className="flex-1 basis-1/3 shadow-lg">
           <img
             className="h-full w-full rounded-lg object-cover"
-            src="public/web4.png"
+            src={web4}
             alt="web"
           />
         </div>
         <div className="flex-1 basis-1/3 shadow-lg">
           <img
             className="h-full w-full rounded-lg object-cover"
-            src="public/web5.png"
+            src={web5}
             alt="web"
           />
         </div>
         <div className="flex-1 basis-1/3 shadow-lg">
           <img
             className="h-full w-full rounded-lg object-cover"
-            src="public/web6.png"
+            src={web6}
             alt="web"
           />
         </div>

@@ -74,7 +74,7 @@ button:focus-visible {
 
 @font-face {
   font-family: "Burtons";
-  src: url(../public/Burtons.otf);
+  src: url(../src/fonts/Burtons.otf);
 }
 
 * {
