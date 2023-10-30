@@ -6,7 +6,7 @@ import {
 function UnderHeader() {
   return (
     <>
-      <div className="px-10 text-center">
+      <div className="px-2 text-center">
         <h1 className="py-2 text-5xl font-medium text-teal-500 dark:text-teal-400 md:py-3 md:text-6xl">
           Wings Web
         </h1>
